@@ -4,8 +4,7 @@
 
 - [What it is and Where to find it](#what-it-is)
 - [RESTful API Usage](#restful-api-usage)
-<!-- - [Local Installation](#local-installation)
-- [Acknowledgments](#acknowledgments) -->
+
 
 ## What it is
 
