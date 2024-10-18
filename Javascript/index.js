@@ -30,11 +30,6 @@ async function fetchPlanets(page = 1) {
             });
 
             planetsData.appendChild(planetElement);
-            // console.log(`Name: ${planet.name}`);
-            // console.log(`Description: ${planet.description}`);
-            // console.log(`Is Destroyed: ${planet.isDestroyed}`);
-            // console.log(`Image: ${planet.image}`);
-            // console.log('---------------------');
         });
 
         if (data.meta.currentPage < data.meta.totalPages) {
@@ -66,9 +61,11 @@ async function fetchCharacters(page = 1) {
             characterElement.innerHTML = `
             <div class="card-front" style="margin-bottom: 10px;">
             <h2>${character.name}</h2>
-            <h6>Base KI:${character.ki}</h6>
-            <h6>Total KI:${character.maxKi}</h6>
-            <h6>Affiliation:${character.affiliation}</h6>
+            <h5>Race:${character.race}</h5>
+            <h5>Gender:${character.gender}</h5>
+            <h5>KI:${character.ki}-
+            ${character.maxKi}</h5>      
+
             <img class="character-image" src="${character.image}" alt="${character.name}" style="display: block; margin-top: 10px;" />
             </div>
             <div class="card-back">
@@ -80,17 +77,6 @@ async function fetchCharacters(page = 1) {
                 this.classList.toggle('flipped');
             });
             charactersData.appendChild(characterElement);
-            // console.log(`id: ${character.id}`);
-            // console.log(`name: ${character.name}`);
-            // console.log(`ki: ${character.ki}`);
-            // console.log(`maxKi: ${character.maxKi}`);
-            // console.log(`race: ${character.race}`);
-            // console.log(`gender: ${character.gender}`);
-            // console.log(`description: ${character.description}`);
-            // console.log(`image: ${character.image}`);
-            // console.log(`affiliation: ${character.affiliation}`);
-            // console.log(`deletedAt: ${character.deletedAt}`);
-            // console.log('---------------------');
         });
 
         if (data.meta.currentPage < data.meta.totalPages) {
