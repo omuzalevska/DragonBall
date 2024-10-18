@@ -10,7 +10,6 @@ async function fetchPlanets(page = 1) {
 
         const data = await response.json();
 
-        console.log(`Page ${page}:`);
         data.items.forEach(planet => {
             const planetElement = document.createElement('div');
             planetElement.classList.add('card');
@@ -54,7 +53,6 @@ async function fetchCharacters(page = 1) {
 
         const data = await response.json();
 
-        console.log(`Page ${page}:`);
         data.items.forEach(character => {
             const characterElement = document.createElement('div');
             characterElement.classList.add('card');
@@ -99,13 +97,12 @@ document.getElementById('btn-Characters').addEventListener('click', function () 
 });
 
 function showPage(pageId) {
-    // Сховати всі сторінки
+  
     const pages = document.querySelectorAll('.page');
     pages.forEach(page => {
         page.style.display = 'none';
     });
 
-    // Показати обрану сторінку
     document.getElementById(pageId).style.display = 'block';
 
     if (pageId === 'planets') {

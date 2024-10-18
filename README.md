@@ -1,6 +1,6 @@
 # Visor de Personajes y Planetas de Dragon Ball
 
-Este proyecto es una aplicación web para ver personajes y planetas del universo de Dragon Ball. La aplicación obtiene datos de la [API de Dragon Ball](https://dragonball-api.com) y muestra la información en tarjetas que se pueden voltear para ver más detalles.
+Este proyecto es una aplicación web para ver personajes y planetas del universo de Dragon Ball. La aplicación obtiene datos de la [https://dragonball-api.com] y muestra la información en tarjetas que se pueden voltear para ver más detalles.
 
 ## Características
 
@@ -20,5 +20,8 @@ Este proyecto es una aplicación web para ver personajes y planetas del universo
 Haz clic en el botón "Planetas" o "Personajes" para cargar los datos correspondientes.
 Haz clic en una tarjeta para voltearla y ver más detalles.
 
+
 ## Autores
 Oksana Muzalevska - [https://github.com/omuzalevska]
+
+¡Espero que disfruten usar esta aplicación tanto como yo disfruté crearla!
