@@ -1,15 +1,24 @@
-# Dragon Ball API
+# Visor de Personajes y Planetas de Dragon Ball
 
-## Table of contents 
+Este proyecto es una aplicación web para ver personajes y planetas del universo de Dragon Ball. La aplicación obtiene datos de la [API de Dragon Ball](https://dragonball-api.com) y muestra la información en tarjetas que se pueden voltear para ver más detalles.
 
-- [What it is and Where to find it](#what-it-is)
-- [RESTful API Usage](#restful-api-usage)
+## Características
 
+- Ver personajes y planetas
+- Carga de datos de forma asíncrona desde la API
+- Interfaz interactiva con tarjetas que se pueden voltear
+- Fondo semitransparente para un mejor diseño
 
-## What it is
+## Tecnologías
 
-The Dragon Ball API is a RESTful API based on the television series Dragon Ball. API queries will return characters from the series.  
+- HTML
+- CSS
+- JavaScript
+- Fetch API
 
+## Uso
+Haz clic en el botón "Planetas" o "Personajes" para cargar los datos correspondientes.
+Haz clic en una tarjeta para voltearla y ver más detalles.
 
-## RESTful API Usage
-This documentation will help you get familiar with the resources of the Dragon Ball API and show you how to make different queries, so that you can get the most out of it.
+## Autores
+Oksana Muzalevska - [https://github.com/omuzalevska]
