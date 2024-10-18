@@ -13,12 +13,12 @@
 }
 
 .grid div {
-    padding: 8px;
+    padding: 16px;
     text-align: center; 
 }
 
 .grid img {
-    max-width: 85%; 
+    max-width: 80%; 
     height: auto; 
 }
 
@@ -27,7 +27,7 @@
     width: 300px;
     height: 400px;
     perspective: 1000px; /*3D*/
-    margin: 3px; 
+    margin: 8px; 
 }
 
 .card-front, .card-back {
@@ -66,5 +66,5 @@
 }
 
 .card-front h2, .card-front h4, .card-front h5 {
-    margin: 3px; 
+    margin: 8px; 
 }
